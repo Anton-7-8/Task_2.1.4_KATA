@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-    @Bean (name = "dog")
+/*    @Bean (name = "dog")
     public Animal getDog() {
         Animal animal = new Dog();
         return animal;
@@ -26,5 +26,5 @@ public class AppConfig {
     public Timer getTimer() {
         Timer timer = new Timer();
         return timer;
-    }
+    }*/
 }
